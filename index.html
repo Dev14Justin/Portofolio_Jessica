@@ -1,144 +1,262 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="scroll-smooth">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jessica - Communicante & Voix-Off</title>
-  <link href="./src/css/output.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
-</head>
-<body class="bg-gray-100 text-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessica - Communicante & Voix-Off</title>
+    <link href="./src/css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Barre de Navigation -->
+    <header class="bg-white shadow-md fixed w-full z-10">
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="text-2xl font-bold text-gray-800">Jessica</a>
+        <ul class="flex items-center space-x-6">
+          <li>
+            <a href="#about" class="text-gray-600 hover:text-blue-500"
+              >À propos</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="text-gray-600 hover:text-blue-500"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#voice" class="text-gray-600 hover:text-blue-500"
+              >Voix-off</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="text-gray-600 hover:text-blue-500"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- Barre de Navigation -->
-  <header class="bg-white shadow-md fixed w-full z-10">
-    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold text-gray-800">Jessica</a>
-      <ul class="flex items-center space-x-6">
-        <li><a href="#about" class="text-gray-600 hover:text-blue-500">À propos</a></li>
-        <li><a href="#portfolio" class="text-gray-600 hover:text-blue-500">Portfolio</a></li>
-        <li><a href="#voice" class="text-gray-600 hover:text-blue-500">Voix-off</a></li>
-        <li><a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Section Hero -->
+    <main class="pt-24">
+      <section id="hero" class="container mx-auto px-6 py-20 text-center">
+        <img
+          src="
+      "
+          alt="Photo de Jessica"
+          class="w-40 h-40 rounded-full mx-auto mb-6"
+        />
+        <h1 class="text-5xl font-bold mb-2">Jessica Doe</h1>
+        <p class="text-xl text-gray-600">
+          Communicante passionnée et Voix-off professionnelle.
+        </p>
+      </section>
 
-  <!-- Section Hero -->
-  <main class="pt-24">
-    <section id="hero" class="container mx-auto px-6 py-20 text-center">
-      <img src="" alt="Photo de Jessica" class="w-40 h-40 rounded-full mx-auto mb-6">
-      <h1 class="text-5xl font-bold mb-2">Jessica Doe</h1>
-      <p class="text-xl text-gray-600">Communicante passionnée et Voix-off professionnelle.</p>
-    </section>
-
-    <!-- Section À propos -->
-    <section id="about" class="bg-white py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12">À propos de moi</h2>
-        <div class="flex flex-col md:flex-row items-center">
-          <div class="md:w-2/3 md:pr-12">
-            <p class="text-lg mb-4">
-              Spécialiste de la communication avec plus de 10 ans d'expérience, j'aide les marques à raconter leur histoire. Ma passion pour les mots m'a naturellement conduite vers le monde de la voix-off, où je prête ma voix à des projets variés.
-            </p>
-            <p class="text-lg">
-              Que ce soit pour une narration, une publicité ou un personnage, j'apporte une touche d'authenticité et de professionnalisme à chaque projet.
-            </p>
-          </div>
-          <div class="md:w-1/3 mt-8 md:mt-0">
-            <h3 class="text-2xl font-semibold mb-4">Compétences</h3>
-            <ul class="space-y-2">
-              <li class="flex items-center"><span class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3">Stratégie de communication</span></li>
-              <li class="flex items-center"><span class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3">Narration</span></li>
-              <li class="flex items-center"><span class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3">Publicité</span></li>
-              <li class="flex items-center"><span class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3">Doublage</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Portfolio -->
-    <section id="portfolio" class="py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12">Mon Portfolio</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Projet 1 -->
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="https://via.placeholder.com/400x250" alt="Projet 1" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-2">Campagne "Innovate"</h3>
-              <p class="text-gray-600">Stratégie de communication pour le lancement d'un produit tech.</p>
+      <!-- Section À propos -->
+      <section id="about" class="bg-white py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">À propos de moi</h2>
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-2/3 md:pr-12">
+              <p class="text-lg mb-4">
+                Spécialiste de la communication avec plus de 10 ans
+                d'expérience, j'aide les marques à raconter leur histoire. Ma
+                passion pour les mots m'a naturellement conduite vers le monde
+                de la voix-off, où je prête ma voix à des projets variés.
+              </p>
+              <p class="text-lg">
+                Que ce soit pour une narration, une publicité ou un personnage,
+                j'apporte une touche d'authenticité et de professionnalisme à
+                chaque projet.
+              </p>
+            </div>
+            <div class="md:w-1/3 mt-8 md:mt-0">
+              <h3 class="text-2xl font-semibold mb-4">Compétences</h3>
+              <ul class="space-y-2">
+                <li class="flex items-center">
+                  <span
+                    class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3"
+                    >Stratégie de communication</span
+                  >
+                </li>
+                <li class="flex items-center">
+                  <span
+                    class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3"
+                    >Narration</span
+                  >
+                </li>
+                <li class="flex items-center">
+                  <span
+                    class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3"
+                    >Publicité</span
+                  >
+                </li>
+                <li class="flex items-center">
+                  <span
+                    class="bg-blue-500 text-white rounded-full px-3 py-1 mr-3"
+                    >Doublage</span
+                  >
+                </li>
+              </ul>
             </div>
           </div>
-          <!-- Projet 2 -->
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="https://via.placeholder.com/400x250" alt="Projet 2" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-2">Podcast "La Voix Claire"</h3>
-              <p class="text-gray-600">Narration et production d'un podcast sur le bien-être.</p>
+        </div>
+      </section>
+
+      <!-- Section Portfolio -->
+      <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">Mon Portfolio</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Projet 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <img
+                src="https://via.placeholder.com/400x250"
+                alt="Projet 1"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Campagne "Innovate"</h3>
+                <p class="text-gray-600">
+                  Stratégie de communication pour le lancement d'un produit
+                  tech.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Projet 3 -->
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="https://via.placeholder.com/400x250" alt="Projet 3" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-2">Publicité "Gourmandise"</h3>
-              <p class="text-gray-600">Voix-off pour une publicité télévisée nationale.</p>
+            <!-- Projet 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <img
+                src="https://via.placeholder.com/400x250"
+                alt="Projet 2"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">
+                  Podcast "La Voix Claire"
+                </h3>
+                <p class="text-gray-600">
+                  Narration et production d'un podcast sur le bien-être.
+                </p>
+              </div>
+            </div>
+            <!-- Projet 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <img
+                src="https://via.placeholder.com/400x250"
+                alt="Projet 3"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Publicité "Gourmandise"</h3>
+                <p class="text-gray-600">
+                  Voix-off pour une publicité télévisée nationale.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Section Voix-off -->
-    <section id="voice" class="bg-white py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12">Extraits Voix-off</h2>
-        <div class="space-y-8">
-          <!-- Extrait 1 -->
-          <div class="flex items-center bg-gray-100 p-4 rounded-lg">
-            <h3 class="text-xl font-semibold mr-6">Narration Documentaire</h3>
-            <audio controls class="w-full">
-              <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-              Votre navigateur ne supporte pas l'élément audio.
-            </audio>
-          </div>
-          <!-- Extrait 2 -->
-          <div class="flex items-center bg-gray-100 p-4 rounded-lg">
-            <h3 class="text-xl font-semibold mr-6">Publicité Radio</h3>
-            <audio controls class="w-full">
-              <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-              Votre navigateur ne supporte pas l'élément audio.
-            </audio>
+      <!-- Section Voix-off -->
+      <section id="voice" class="bg-white py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">
+            Extraits Voix-off
+          </h2>
+          <div class="space-y-8">
+            <!-- Extrait 1 -->
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold mr-6">Narration Documentaire</h3>
+              <audio controls class="w-full">
+                <source
+                  src="https://www.w3schools.com/html/horse.ogg"
+                  type="audio/ogg"
+                />
+                Votre navigateur ne supporte pas l'élément audio.
+              </audio>
+            </div>
+            <!-- Extrait 2 -->
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold mr-6">Publicité Radio</h3>
+              <audio controls class="w-full">
+                <source
+                  src="https://www.w3schools.com/html/horse.ogg"
+                  type="audio/ogg"
+                />
+                Votre navigateur ne supporte pas l'élément audio.
+              </audio>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Section Contact -->
-    <section id="contact" class="py-20">
+      <!-- Section Contact -->
+      <section id="contact" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-4xl font-bold mb-6">Contactez-moi</h2>
+          <p class="text-lg mb-8">
+            Intéressé(e) par une collaboration ? Envoyez-moi un message !
+          </p>
+          <a
+            href="mailto:contact@jessica.com"
+            class="bg-blue-500 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300"
+          >
+            contact@jessica.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-800 text-white py-6">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-6">Contactez-moi</h2>
-        <p class="text-lg mb-8">Intéressé(e) par une collaboration ? Envoyez-moi un message !</p>
-        <a href="mailto:contact@jessica.com" class="bg-blue-500 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300">
-          contact@jessica.com
-        </a>
+        <p>&copy; 2025 Jessica Doe. Tous droits réservés.</p>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- Pied de page -->
-  <footer class="bg-gray-800 text-white py-6">
-    <div class="container mx-auto px-6 text-center">
-      <p>&copy; 2025 Jessica Doe. Tous droits réservés.</p>
-    </div>
-  </footer>
-
-</body>
+    <script>
+      (function () {
+        if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+          window.chatbase = (...arguments) => {
+            if (!window.chatbase.q) {
+              window.chatbase.q = [];
+            }
+            window.chatbase.q.push(arguments);
+          };
+          window.chatbase = new Proxy(window.chatbase, {
+            get(target, prop) {
+              if (prop === "q") {
+                return target.q;
+              }
+              return (...args) => target(prop, ...args);
+            },
+          });
+        }
+        const onLoad = function () {
+          const script = document.createElement("script");
+          script.src = "https://www.chatbase.co/embed.min.js";
+          script.id = "mTASEfO0VeoFMgtWjmpNq";
+          script.domain = "www.chatbase.co";
+          document.body.appendChild(script);
+        };
+        if (document.readyState === "complete") {
+          onLoad();
+        } else {
+          window.addEventListener("load", onLoad);
+        }
+      })();
+    </script>
+  </body>
 </html>
